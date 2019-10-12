@@ -1,5 +1,9 @@
 body{
-    background-image: url(C:\Users\antho\ClassStuff\HW\WK1\Portfolio\assets\images);
+    background-image: url(assets\images\ripples.png);
+}
+
+.header{
+    background-color: white;
 }
 .logo {
     background-color:black;
@@ -7,19 +11,23 @@ body{
     color: white;
     text-align: left;
     padding: 1px 10px 1px 10px;
-    float: left;
     position: fixed;
-    left: 200px;
+    left: 20%;
+    float: left;
 }
 
 .grid-container {
-    float: right;
+    clear: both;
+    overflow: auto;
     display: grid;
     grid-template-columns: auto auto auto;
     grid-gap: 10px;
     background-color: white;
     padding: 0px;
     color: gray;
+    position: fixed;
+    right: 20%;
+    float: right;
   }
   
   .grid-container > div {
@@ -30,6 +38,21 @@ body{
   }
 
   .aboutme {
+      clear: both;
+      overflow: auto;
       width: 960px;
+      margin: 0 auto 0 auto;
+      padding: 20px;        
+  }
+
+  footer{
+      text-align: center;
+      width: 100%;
+      height: 40px;
+      position: fixed;
+      bottom: 0px;
+      background-color: #666666;
+      padding: 20px;
+      margin-top: 10px;
   }
 
