@@ -1,5 +1,5 @@
 body{
-    background-image: url(assets/images/ripples.png);
+    background-image: url(C:\Users\antho\ClassStuff\HW\WK1\Portfolio\assets\images);
 }
 .logo {
     background-color:black;
@@ -8,8 +8,28 @@ body{
     text-align: left;
     padding: 1px 10px 1px 10px;
     float: left;
+    position: fixed;
+    left: 200px;
 }
 
-.navbar {
-    float:right;
-}
+.grid-container {
+    float: right;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-gap: 10px;
+    background-color: white;
+    padding: 0px;
+    color: gray;
+  }
+  
+  .grid-container > div {
+    background-color: rgba(255, 255, 255, 0.8);
+    text-align: center;
+    padding: 20px 0;
+    font-size: 30px;
+  }
+
+  .aboutme {
+      width: 960px;
+  }
+
