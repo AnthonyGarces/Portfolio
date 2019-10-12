@@ -1,0 +1,15 @@
+body{
+    background-image: url(assets/images/ripples.png);
+}
+.logo {
+    background-color:black;
+    font-size: 24px;
+    color: white;
+    text-align: left;
+    padding: 1px 10px 1px 10px;
+    float: left;
+}
+
+.navbar {
+    float:right;
+}
