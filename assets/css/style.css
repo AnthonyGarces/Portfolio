@@ -2,7 +2,7 @@ body{
     background-image: url("assets\images\ripples.png");
 }
 .header{
-    /* background-color: white; */
+    background-color: white;
 }
 .logo {
     background-color:black;
@@ -16,12 +16,12 @@ body{
 }
 
 .grid-container {
-    /* clear: both; */
-    /* overflow: auto; */
+    clear: both;
+    overflow: auto;
     display: grid;
     grid-template-columns: auto auto auto;
     grid-gap: 10px;
-    /* background-color: white; */
+    background-color: white;
     padding: 0px;
     color: gray;
     position: fixed;
@@ -30,15 +30,15 @@ body{
   }
   
   .grid-container > div {
-    /* background-color: rgba(255, 255, 255, 0.8); */
+    background-color: rgba(255, 255, 255, 0.8);
     text-align: center;
     padding: 20px 0;
     font-size: 30px;
   }
 
-  .aboutme {
-      /* clear: both;
-      overflow: auto; */
+  #aboutme {
+      clear: both;
+      overflow: auto; 
       width: 960px;
       margin: 0 auto 0 auto;
       padding: 20px;    
@@ -51,7 +51,7 @@ body{
       height: 40px;
       position: fixed;
       bottom: 0px;
-      /* background-color: #666666; */
+      background-color: #666666;
       padding: 20px;
       margin-top: 10px;
   }
