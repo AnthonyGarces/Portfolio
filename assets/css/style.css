@@ -45,6 +45,33 @@ body{
       border: 1px solid black;    
   }
 
+  .Contact-Content {
+      clear: both;
+      width: 960px;
+      background-color: #666666;
+      position: relative;
+      left: 20%;
+      top: 150px;
+      height: 400px;
+  }
+
+  .NameForm {
+      padding: 10px 0px 10px 0px;
+      height: 10px;
+      border: gray solid 1px;
+  }
+
+  .EmailForm {
+    padding: 10px 0px 10px 0px;
+    height: 10px;
+    border: gray solid 1px;
+  }
+
+  .MessageForm {
+    padding: 10px 0px 10px 0px;
+    height: 30px;
+    border: gray solid 1px;
+  }
   footer{
       text-align: center;
       width: 100%;
