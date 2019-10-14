@@ -1,85 +1,119 @@
-body{
-    background-image: url("assets\images\ripples.png");
-}
-.header{
-    background-color: white;
-}
-.logo {
-    background-color:black;
-    font-size: 24px;
-    color: white;
-    text-align: left;
-    padding: 1px 10px 1px 10px;
-    position: fixed;
-    left: 20%;
-    float: left;
+body {
+    text-align: center;
+    color: black;
+    background-image: url("assets/images/gravel/gravel.png");
+    font-family: 'Arial', 'Helvetica Neue', Arial, Helvetica, sans-serif;
 }
 
-.grid-container {
-    clear: both;
-    overflow: auto;
+.header {
+    background-color: #ffffff;
+    border-bottom: 1px solid #cccccc;
+    height: 50px;
+    width: 1043px;
+    left: 430px;
+    position: fixed;
+    top: 0px;
+    padding: 10px;
+}
+.logo {
+    background-color: #4aaaa5;
+    color: white;
+    float: left;
+    font-size: 30px;
+    margin: 10px 0px 0px -10px;
+    width: 260px;
+    height: 40px;
+    padding: 5px;
+}
+
+.tabs {
+    margin: 20px;
     display: grid;
     grid-template-columns: auto auto auto;
     grid-gap: 10px;
     background-color: white;
     padding: 0px;
     color: gray;
-    position: fixed;
-    right: 20%;
     float: right;
-  }
-  
-  .grid-container > div {
-    background-color: rgba(255, 255, 255, 0.8);
-    text-align: center;
-    padding: 20px 0;
-    font-size: 30px;
-  }
+    font-size: 24px;
+}
 
-  #aboutme {
-      clear: both;
-      overflow: auto; 
-      width: 960px;
-      margin: 0 auto 0 auto;
-      padding: 20px;    
-      border: 1px solid black;    
-  }
+.Content {
+    position: relative;
+    top: 60px;
+    clear: both;
+    padding: 50px 50px 50px 50px;
+    margin: 10px auto 10px auto;
+    width: 960px;
+    display: inline-block;
+    border: 1px solid #dddddd;
+    background-color: #dddddd;
+}
 
-  .Contact-Content {
-      clear: both;
-      width: 960px;
-      background-color: #666666;
-      position: relative;
-      left: 20%;
-      top: 150px;
-      height: 400px;
-  }
+h1 {
+    color: #4aaaa5;
+    text-align: left;
+    font-family: 'Georgia', Times, 'Times New Roman', serif;
+}
+.picofme {
+    float: left;
+    /* display: none; */
+}
 
-  .NameForm {
-      padding: 10px 0px 10px 0px;
-      height: 10px;
-      border: gray solid 1px;
-  }
+.p1 {
+    margin-top: -5px;
+    margin-left:210px;
+    /* border: 1px solid black; */
+    color: #777777;
+    font-size: 24px;
+}
 
-  .EmailForm {
-    padding: 10px 0px 10px 0px;
-    height: 10px;
-    border: gray solid 1px;
-  }
+.p2 {
+    margin: 180px 0px 0px 0px;
+    clear: both;
+    /* border: 1px solid black; */
+    color: #777777;
+    font-size: 24px;
+}
 
-  .MessageForm {
-    padding: 10px 0px 10px 0px;
-    height: 30px;
-    border: gray solid 1px;
-  }
-  footer{
-      text-align: center;
-      width: 100%;
-      height: 40px;
-      position: fixed;
-      bottom: 0px;
-      background-color: #666666;
-      padding: 20px;
-      margin-top: 10px;
-  }
+footer {
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+    border-top: 8px solid #4aaaa5;
+    background-color: #666666;
+    height: 50px;
+    padding: 0px 0px 0px 0px;
+    text-align: bottom;
+}
 
+.Contact-Content {
+    clear: both;
+    overflow: auto;
+    padding: 10px 10px 10px 10px;
+    margin: 100px auto 0px auto;
+    border: #ffffff 1px solid;
+    width: 1043px;
+    text-align: left;
+    background-color: #dddddd;
+}
+
+.NameForm {
+    width: 500px;
+    margin: 10px 0px 5px 0px;
+}
+
+.EmailForm {
+    Width: 500px;
+    margin: 10px 0px 5px 0px;
+}
+
+.MessageForm {
+    width: 500px;
+    height: 300px;
+    margin: 10px 0px 5px 0px;
+}
+
+.submitbutton {
+    margin-top: 15px;
+}
