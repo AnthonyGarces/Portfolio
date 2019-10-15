@@ -5,12 +5,20 @@ body {
     font-family: 'Arial', 'Helvetica Neue', Arial, Helvetica, sans-serif;
 }
 
+.bigheader {
+    background-color: #ffffff;
+    height: 70px;
+    Width: 100%;
+    position: absolute;
+    top: 0px;
+    border-bottom: 1px #cccccc solid;
+}
 .header {
     background-color: #ffffff;
     border-bottom: 1px solid #cccccc;
     height: 50px;
     width: 1043px;
-    left: 430px;
+    left: 230px;
     position: fixed;
     top: 0px;
     padding: 10px;
@@ -20,10 +28,10 @@ body {
     color: white;
     float: left;
     font-size: 30px;
-    margin: 10px 0px 0px -10px;
+    margin: -10px 0px 0px -10px;
     width: 260px;
-    height: 40px;
-    padding: 5px;
+    height: 60px;
+    padding: 10px 0px 0px 10px;
 }
 
 .tabs {
